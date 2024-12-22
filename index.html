@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Security System">
+    <meta name="keywords" content="camera security, security system, home security">
+    <meta name="author" content="salma">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Security System</title>
+</head>
+<body>
+  <header id="header">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand logo text-white" href="#">Birembolo Security</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white ms-md-3" aria-current="page" href="#header">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white ms-md-3" href="#about-us">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white ms-md-3" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-white ms-md-3" href="#contact-us">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="ms-2 bg-transparent search rounded-5 text-white ps-4 py-1" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div><!--end nav bar-->
+    </nav><!--end nav bar-->
+    <div class="container text-center header-content">
+      <h1 class="display-3 mb-3 fw-bold">Berimbolo Security</h1>
+      <p class="mb-4">A comprehensive platform offering a wide range of personal and home security products, designed to ensure safety, privacy, and peace of mind. Explore high-quality solutions tailored to meet your security needs.</p>
+      <div class="button-parent">
+        <a href="#about-us" class="btn rounded-5 text-dark fw-medium me-5">Learn More</a>
+        <a href="#products" class="btn rounded-5 text-dark fw-medium">Explore</a>
+      </div><!--end button parent-->
+      <a href="#about-us"><i class="fa-solid fa-chevron-down btn header-arrow opacity-50"></i></a>
+      <div class="container">
+        <button type="button" id="topBtn" class="top-btn border-0 rounded-circle "><i class="fa-solid fa-arrow-up btn p-3 text-white"></i></button>
+    </div> 
+    </div><!--end container-->
+  </header><!--end header-->
+
+  <!--about us section-->
+  <section id="about-us">
+    <div class="container justify-content-center">
+      <div class="row">
+        <div class="col-lg-6 text-center text-md-start">
+          <h2 class="fw-bold display-3 my-md-3 my-2">About Us</h2>
+          <p class="pt-md-4 pt-2 mb-md-3 mb-2">Discover cutting-edge security solutions designed to protect  what mattersmost. Our range of innovative products ensures safety, reliability, and peace of mind for your home, business, and digital presence. Whether you're looking for advanced surveillance systems, smart locks, or cybersecurity tools, we provide tailored solutions to meet your unique needs. Your safety is our commitment. </p>
+          <a href="#services" class="btn rounded-5 border-0 text-white mb-md-0 mb-2">Learn More</a>
+        </div><!--end column-->
+        <div class="col-lg-6">
+          <video class="video" controls>
+            <source src="images/vid-products.mp4" type="video/mp4">
+            <source src="images/vid-products.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+        </div><!--end column-->
+      </div><!--end row-->
+    </div><!--end container-->
+  </section><!--end about us section-->
+
+  <!--Services Section-->
+   <section id="services">
+    <div class="container text-white text-center py-4">
+      <div class="row">
+        <div id="carouselservices" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 d-flex flex-column text-white text-center me-1 justify-content-center align-items-center">
+                  <img src="images/service-1.jpg" class="img-fluid imgs" loading="lazy" alt="service-1">
+                  <button type="button" class="btn rounded-5 border-0 text-white my-3">More</button>
+                  <h5 class="mb-3 fw-bold">Essential Security Products</h5>
+                  <p>Learn about must-have security tools and gadgets to safeguard your property, loved ones, and digital life effectively.</p>
+                </div><!--end column-->
+              </div><!--end row-->
+            </div><!--end carousel item-->
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 d-flex flex-column text-white text-center me-1 justify-content-center align-items-center">
+                  <img src="images/service-2.jpg" class="img-fluid imgs" alt="service-2" loading="lazy">
+                  <button type="button" class="btn rounded-5 border-0 text-white my-3">More</button>
+                  <h5 class="mb-3 fw-bold">The Future of Personal Security</h5>
+                  <p>Discover how cutting-edge technology like facial recognition and mobile apps is redefining personal safety.</p>
+                </div><!--end column-->
+              </div><!--end row-->
+            </div><!--end carousel item-->
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 d-flex flex-column text-white text-center me-1 justify-content-center align-items-center">
+                  <img src="images/service-3.jpg" class="img-fluid imgs" alt="service-3" loading="lazy">
+                  <button type="button" class="btn rounded-5 border-0 text-white my-3">More</button>
+                  <h5 class="mb-3 fw-bold">Essential Security Products</h5>
+                  <p>Learn about must-have security tools and gadgets to safeguard your property, loved ones, and digital life effectively.</p>
+                </div><!--end column-->
+              </div><!--end row-->
+            </div><!--end carousel item-->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselservices" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselservices" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div><!--end row-->
+    </div><!--end container-->
+  </section>
+
+  <!--products section-->
+  <section id="products">
+    <div class="container text-white text-center">
+      <div class="row">
+        <h2 class="fw-bold display-3 my-3 text-md-center">Our Products</h2>
+      </div><!--end row-->
+      <div class="row product-container">
+        <div id="carouselproducts" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 text-white text-center">
+                  <img src="images/camera-1.jpg" class="img-fluid imgs my-3" alt="first-product" loading="lazy">
+                  <div class="stars-container d-flex justify-content-center mb-3">
+                    <i class="fa-solid fa-star stars me-3"></i>
+                    <i class="fa-solid fa-star stars me-3"></i>
+                    <i class="fa-solid fa-star stars me-3"></i>
+                    <i class="fa-solid fa-star stars me-3"></i>
+                    <i class="fa-regular fa-star stars"></i>
+                  </div>
+                  <h5 class="mb-3 display-6 fw-bold">Camera One</h5>
+                  <p>Dome-shaped surveillance camera.</p>
+                  <div class="container text-center mt-3">
+                    <button class="btn btn-shop-now">Shop Now</button>
+                  </div><!--buuton-->
+                </div><!--end column-->
+              </div><!--end row-->
+            </div><!--end carousel item-->
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 text-white text-center">
+                  <img src="images/camera-2.jpg" class="img-fluid imgs my-3" alt="second-product" loading="lazy">
+                  <div class="stars-container d-flex justify-content-center mb-3">
+                    <i class="fa-solid fa-star stars me-3"></i>
+                    <i class="fa-solid fa-star stars me-3"></i>
+                    <i class="fa-solid fa-star stars me-3"></i>
+                    <i class="fa-solid fa-star stars me-3"></i>
+                    <i class="fa-regular fa-star stars"></i>
+                  </div>
+                  <h5 class="mb-3 display-6 fw-bold">Camera Two</h5>
+                  <p>Outdoor-resistant security camera.</p>
+                  <div class="container text-center mt-3">
+                    <button class="btn btn-shop-now">Shop Now</button>
+                  </div><!--buuton-->
+                </div><!--end column-->
+              </div><!--end row-->
+            </div><!--end carousel item-->
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 text-white text-center">
+                  <img src="images/camera-3.jpg" class="img-fluid imgs my-3" alt="third-product" loading="lazy">
+                <div class="stars-container d-flex justify-content-center mb-3">
+                  <i class="fa-solid fa-star stars me-3"></i>
+                  <i class="fa-solid fa-star stars me-3"></i>
+                  <i class="fa-solid fa-star stars me-3"></i>
+                  <i class="fa-solid fa-star stars me-3"></i>
+                  <i class="fa-regular fa-star stars"></i>
+                </div> 
+                <h5 class="mb-3 display-6 fw-bold">Camera Three</h5>
+                <p>Smart indoor monitoring camera.</p>
+                <div class="container text-center mt-3">
+                  <button class="btn btn-shop-now">Shop Now</button>
+                </div><!--buuton-->
+                </div><!--end column-->
+              </div><!--end row-->
+            </div><!--end carousel item-->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselproducts" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselproducts" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div><!--end row-->
+    </div><!--end container-->
+  </section>
+
+
+  <!--visitors and live chat-->
+  <section id="visitors-liveChat-section">
+    <div class="container text-white py-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <h2 class="fw-bold display-2 mb-5">Number Of Visitors</h2>
+          <h4><i class="fa-regular fa-clock me-5 me- clock-counter"></i> <span id="visitorsNumber" class=" display-4 visitorsNumber"></span></h4>
+        </div><!--end column-->
+        <div class="col-lg-4">
+          <img src="images/visitors.png" class="img-fluid visitors" alt="visitors" loading="lazy">
+        </div>
+        <div class="col-lg-4 chat-parent">
+          <div class="chat-content">
+            <h2 class="fw-bold display-2 mb-md-5 mb-2">Chat Us</h2>
+            <button type="button" class="btn bg-transparent border-0" data-bs-toggle="modal" data-bs-target="#liveChat"><i class="fa-regular fa-comments chat-icon"></i></button>
+            <div class="modal fade text-dark" id="liveChat">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-info">
+                    <h4 class="fw-bold">Chat Us</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div><!--end modal header-->
+                  <div class="modal-body">
+                    <i class="fa-regular fa-comment"></i>
+                  </div><!--end modal body-->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info modal-close" data-bs-dismiss="modal">Close</button>
+                  </div><!--end modal footer-->
+                </div><!--end modal content-->
+              </div><!--end modal dialog-->
+            </div><!--end modal-->
+          </div><!--end chat content-->
+        </div><!--end column-->
+      </div><!--end row-->
+    </div><!--end container-->
+  </section>
+
+  <!--testimonials section-->
+  <section id="testimonials">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 pt-4">
+          <h2 class="fw-bold display-1 heading">What Our Customers</h2>
+          <h2 class="fw-bold display-1 heading"> Saying</h2>
+        </div><!--end column-->
+        <div class="col-lg-6 evaluation">
+          <div class="card text-center d-flex flex-column align-items-center border-0 p-2 rounded-5" style="width: 18rem;">
+            <img src="images/customer.jpeg" class="card-img-top rounded-circle w-75" alt="customer" loading="lazy">
+            <div class="card-body">
+              <div class="stars-container d-flex justify-content-center mb-3">
+                <i class="fa-solid fa-star stars me-3"></i>
+                <i class="fa-solid fa-star stars me-3"></i>
+                <i class="fa-solid fa-star stars me-3"></i>
+                <i class="fa-solid fa-star stars me-3"></i>
+                <i class="fa-regular fa-star stars"></i>
+              </div> <!--end stars parent-->
+              <h5 class="card-title">First Customer</h5>
+              <p class="card-text">Great quality and faster service, highly recommend the product!</p>
+            </div><!--end card body-->
+          </div><!--end card-->
+        </div><!--end column-->
+      </div><!--end row-->
+    </div><!--end container-->
+  </section>
+
+  <!--contact section-->
+  <section id="contact-us">
+    <div class="container pt-5">
+      <div class="row d-md-flex flex-md-column">
+        <div class="col-lg-12 text-center mb-2">
+          <h2 class="fw-bold display-1 my-2">Contact Us</h2>
+          <p>Fill out the form below to customize your security experience</p>
+        </div><!--end column-->
+      </div><!--end row-->
+      <div class="row justify-content-center">
+        <div class="col-lg-6 my-md-2 my-2">
+          <form onsubmit="form()">
+            <input type="text" name="user-name" class="form-control form-inputs rounded-5 mb-3" placeholder="Enter Your Name" id="name">
+            <input type="email" name="user-email" class="form-control form-inputs rounded-5 mb-3" placeholder="Email Adrress" id="email">
+            <input type="password" name="user-pasword" class="form-control form-inputs rounded-5 mb-3" placeholder="Password" id="password">
+            <input type="text" name="user-subject" class="form-control form-inputs rounded-5 mb-3" placeholder="Subject" id="subject">
+            <div class="check d-flex align-items-center">
+              <input type="checkbox" name="check" class="form-check-input me-3" id="agree">
+              <label for="agree" class="form-check-label me-5 text-white">Agree</label>
+              <button class="btn rounded-5 ms-auto sign-up px-3" type="submit">Sign Up</button>
+            </div><!--end check box-->
+          </form>
+          <p class="text-center">Aready You Have An Acount? <a href="#sign-in" class="text-decoration-none sign-in">Sign in</a></p>
+        </div><!--end column-->
+      </div><!--end row-->
+    </div><!--end container-->
+  </section>
+
+  <!-- sign in section -->
+  <section id="sign-in">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12 text-center">
+          <h2 class="fw-bold display-5">Sign in</h2>
+          <form>
+            <input type="email" name="email" id="email-sign-in" class="form-control border-2 border-black mb-3" placeholder="Enter Your Email">
+            <input type="password" name="password" id="password" class="form-control border-2 border-black mb-3" placeholder="Enter Your Password">
+            <button class="form-control btn text-white w-25 rounded-5 py-2 mb-3" type="submit">Sign in</button>
+          </form>
+          <a href="#">Forgot My Password</a>
+          <p class="mb-0">Don't have an account?</p>
+          <a href="#contact-us">Create One</a>
+        </div><!--end column-->
+      </div><!--end row-->
+    </div><!--end container-->
+  </section>
+
+  <!--footer-->
+  <footer id="footer">
+  <div class="container d-flex text-white py-2 align-items-center">
+    <p>Copyright &copy; 2024 Birembolo Security</p>
+    <div class="social-icons d-flex ms-lg-auto">
+      <i class="fa-brands fa-square-twitter me-4"></i>
+      <i class="fa-brands fa-square-facebook me-4"></i>
+      <i class="fa-brands fa-linkedin me-4"></i>
+      <i class="fa-solid fa-phone me-5"></i>
+    </div>
+  </div>
+  </footer>
+  <script src="javascript/bootstrap.bundle.min.js"></script>
+  <script src="javascript/main.js"></script>
+</body>
+</html>

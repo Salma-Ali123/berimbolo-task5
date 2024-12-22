@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+#header p{
+    color: #F2F0E4;
+    font-weight: 600;
+}
+nav .search::placeholder{
+    color: #ededed;  
+}
+nav .search{
+    border: 1px solid #ccd0cf;
+    padding: 5px 10px;
+}
+.top-btn{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    background-color: pink;
+    z-index: 999999;
+    cursor: pointer;
+} 
+#header{
+    background: linear-gradient(to right , rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url(../images/haeder-bg.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}
+#header h1{
+    color: #ededed;
+}
+#header .logo{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.header-content .button-parent .btn{
+    background-color: #C7C8CC;
+    border: none;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+}
+.header-content button:hover{
+    background-color: #B4B3B8;
+    border-color: #B4B3B8 ;
+    color: black;
+    transform: scale(1.1);
+}
+#header .header-arrow{
+    color: #ccd0cf;
+    font-size: 85px;
+    margin-top: 60px;
+}
+#about-us{
+    background: #F2EFEB;
+    height: 100vh;
+}
+#about-us .container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#about-us .video{
+    height: 100%;
+    width: 100%;
+}
+#about-us h2{
+    color: #002334;
+}
+#about-us p{
+    color: #002334;
+}
+#about-us .btn{
+    background-color: #0b1e58;
+    border: none;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+}
+#about-us .btn:hover{
+    background-color: #0056b3;
+    border-color: #0056b3 ;
+    color: white;
+    transform: scale(1.1);
+}
+#services{
+    background: #193248;
+    height: 100vh;
+}
+#services p{
+    color: #ededed;
+}
+#services .btn{
+    background-color: #023653;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #023653;
+    padding: 10px 20px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+#services .btn:hover{
+    background-color: #B4B3B8;
+    border-color: #B4B3B8 ;
+    color: #193248;
+    transform: scale(1.1);
+}
+#products{
+    background: #193248;
+    height: 100vh;
+}
+.stars{
+    color: #FDCF39;
+    font-size: 25px;
+}
+#products p{
+    color: #ededed;
+}
+.imgs{
+    width: 300px;
+    height: 250px;
+}
+#products .btn-shop-now{
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.btn-shop-now:hover{
+    background-color: #0056b3;
+    border-color: #0056b3 ;
+    color: white;
+    transform: scale(1.1);
+}
+.btn-shop-now::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255 , 255 , 255 , 0.2);
+    transition: left 0.3s ease;
+    border-radius: 25px;
+}
+.btn-shop-now:hover::after{
+    left: 0;
+}
+
+#visitors-liveChat-section{
+    background-color: #023653;
+}
+#visitors-liveChat-section h2,p{
+    color: #ededed;
+}
+.visitorsNumber{
+    color: #ededed;
+}
+#visitors-liveChat-section .clock-counter{
+    font-size: 85px;
+    color: #ededed;
+}
+#visitors-liveChat-section .chat-parent{
+    position: relative;
+}
+.chat-parent .chat-content{
+    position: absolute;
+    top: 300px;
+    right: 50px;
+}
+.visitors{
+    height: 600px;
+}
+.chat-content .modal-close{
+    background-color: #ededed;
+    border: none;
+    padding: 10px 25px;
+}
+.chat-content .chat-icon{
+    font-size: 100px;
+    color: #ededed;
+    position: absolute;
+    right: 15px;
+}
+#testimonials{
+    background: url(../images/testimonial.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#testimonials .heading{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    color: white;
+}
+.evaluation{
+    position: relative;
+}
+.evaluation .card{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    background-color: #ededed;
+}
+.evaluation .card h5{
+    color: #023653;
+}
+.evaluation .card p{
+    color: black;
+}
+#contact-us{
+    background: linear-gradient(to right , rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../images/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh
+}
+#contact-us h2,p{
+    color: white;
+}
+#contact-us .form-inputs{
+    border: 1px solid #ededed;
+    background: #0b1e58;
+    color: #ededed;
+}
+#contact-us input::placeholder{
+    color: #ededed;
+}
+#contact-us .sign-up{
+    border: 1px solid #ededed;
+    background: #0b1e58;
+    color: #ededed;
+}
+#contact-us .sign-in{
+    color: #f0c0bf;
+}
+#sign-in{
+    background-color:#F2EFEB;
+    color: #002334;
+    padding: 50px;
+}
+#sign-in p{
+    color: #002334;
+    margin-top: 20px;
+}
+#sign-in .container{
+    padding: 50px;
+}
+#sign-in .btn{
+    background-color: #0b1e58;
+}
+#sign-in a{
+    color: #dd9d9c;
+    text-decoration: none;
+}
+#sign-in .container{
+    background-color: #fff;
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+#footer{
+    background-color: #06141b;
+}
+#footer .social-icons{
+    font-size: 20px;
+}
+@media (max-width : 768px) {
+    #products{
+        height: 100vh; 
+        padding-top: 20px;
+    }
+    #products .product-item{
+        width: 300px;
+        margin-bottom: 30px;
+        margin-right: 30px;
+    }
+    .first-product{
+        margin-left: 0;
+    }
+    #products .btn-shop-now{
+        padding: 5px 10px;
+    }
+    .btn-shop-now::after{
+        left: -50%;
+    }
+    #visitors-liveChat-section{
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+    }
+    #visitors-liveChat-section .visitors{
+        height: 200px;
+    }
+    #visitors-liveChat-section{
+        position: relative;
+    }
+    #visitors-liveChat-section .chat-parent{
+        position: absolute;
+        top: 300px;
+        text-align: center;
+    }
+    .chat-parent .chat-content{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        text-align: center;
+    }
+    .chat-content .chat-icon{
+        margin: 30px;
+        position: absolute;
+        top:30px;
+        left: 15px;
+    }
+    #testimonials{
+        background: url(../images/testimonial.png);
+        background-position: center;
+        background-size: cover;
+        height: 120vh;
+    }
+    .evaluation{
+        position: relative;
+    }
+    .evaluation .card{
+        position: absolute;
+        top: 50px;
+        left: 150px;
+        background-color: #ededed;
+    }
+    #contact-us{
+        height: 90vh;
+    }
+    #contact-us .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
